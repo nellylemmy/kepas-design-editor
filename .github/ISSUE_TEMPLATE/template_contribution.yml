@@ -1,0 +1,59 @@
+name: Propose a new template
+description: Submit a new certificate, receipt, or invoice template for inclusion.
+title: "[Template] "
+labels: ["template", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a new template! You don't need to write code for this — just share the design and a maintainer can help land the PR if you can't open one yourself.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Certificate
+        - Receipt
+        - Invoice
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Template name
+      placeholder: e.g. KRA-Compliant Tax Invoice, Maasai Heritage Certificate
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What's it for?
+      description: Who would use this template? Schools, salons, training centers, NGOs?
+    validations:
+      required: true
+  - type: textarea
+    id: design
+    attributes:
+      label: Design preview
+      description: Drag-and-drop a screenshot, mockup, or PDF here. If you've already built it in the editor, paste the share link.
+    validations:
+      required: true
+  - type: checkboxes
+    id: kenya
+    attributes:
+      label: Kenya-relevant fields
+      options:
+        - label: KRA PIN placeholder
+        - label: M-Pesa Till / Paybill placeholder
+        - label: VAT line
+        - label: Swahili text option
+        - label: Kenyan colour palette (cultural reference)
+  - type: input
+    id: license
+    attributes:
+      label: License confirmation
+      description: Templates contributed are licensed MIT alongside the project. Type "I agree" to confirm.
+      placeholder: I agree
+    validations:
+      required: true

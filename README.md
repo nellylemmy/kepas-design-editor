@@ -1,8 +1,16 @@
 # KEPAS Design Editor
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![CI](https://github.com/nellylemmy/kepas-design-editor/actions/workflows/ci.yml/badge.svg)](https://github.com/nellylemmy/kepas-design-editor/actions/workflows/ci.yml)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+[![Made in Kenya](https://img.shields.io/badge/made%20in-Kenya-006B3F.svg)](https://kepas.co.ke)
+[![Good first issues](https://img.shields.io/github/issues/nellylemmy/kepas-design-editor/good%20first%20issue?color=7057ff&label=good%20first%20issues)](https://github.com/nellylemmy/kepas-design-editor/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+
 > Drag-and-drop design editor for certificates, receipts, and invoices. Powered by Fabric.js with built-in Kenya-ready templates (KRA PIN + M-Pesa fields on invoices). Export as PNG, JPG, or PDF. Self-hostable. Built by [KEPAS Technologies](https://kepas.co.ke).
 
 Live at **[kepas.co.ke/tools/design-editor](https://kepas.co.ke/tools/design-editor)**.
+
+> **Looking for contributors.** This project exists to help Kenyan SMEs, schools, training programs, churches, and NGOs. If you can design templates, write JavaScript, or write documentation, see [CONTRIBUTING.md](./CONTRIBUTING.md) and pick a [good first issue](https://github.com/nellylemmy/kepas-design-editor/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 
 ## What it does
 
@@ -77,6 +85,19 @@ CREATE TABLE design_documents (
 - **invoices/** — Kenya-ready invoice templates (KRA PIN, M-Pesa fields)
 
 The editor loads these at startup so new users see ready-to-use designs.
+
+## Contributing
+
+We welcome contributions from designers, developers, and writers — at every experience level. The easiest way in is adding a new template (no code required). See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full guide.
+
+- Found a bug? Open a [bug report](https://github.com/nellylemmy/kepas-design-editor/issues/new?template=bug_report.yml).
+- Have an idea? Open a [feature request](https://github.com/nellylemmy/kepas-design-editor/issues/new?template=feature_request.yml).
+- Want to contribute a template? Use the [template proposal](https://github.com/nellylemmy/kepas-design-editor/issues/new?template=template_contribution.yml).
+- Just want to chat? Drop into [Discussions](https://github.com/nellylemmy/kepas-design-editor/discussions).
+
+All participants in this project are expected to follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
+
+Security issues should be reported privately per [SECURITY.md](./SECURITY.md).
 
 ## License
 

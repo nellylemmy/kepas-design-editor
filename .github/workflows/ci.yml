@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: user
+          POSTGRES_PASSWORD: password
+          POSTGRES_DB: kepas_design
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U user"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm install --omit=dev
+
+      - name: Run migrations
+        env:
+          DB_USER: user
+          DB_PASSWORD: password
+          DB_HOST: localhost
+          DB_PORT: 5432
+          DB_DATABASE: kepas_design
+        run: node scripts/migrate.js
+
+      - name: Boot server + healthz
+        env:
+          DB_USER: user
+          DB_PASSWORD: password
+          DB_HOST: localhost
+          DB_PORT: 5432
+          DB_DATABASE: kepas_design
+          PORT: 4200
+        run: |
+          node src/index.js &
+          sleep 3
+          curl -fsS http://localhost:4200/healthz
+          curl -fsS -o /dev/null http://localhost:4200/design-editor
+          curl -fsS -o /dev/null http://localhost:4200/templates/design-editor/manifest.json
+
+      - name: Validate every bundled template is valid JSON
+        run: |
+          set -e
+          find public/templates/design-editor -name '*.json' -print0 | while IFS= read -r -d '' f; do
+            node -e "JSON.parse(require('fs').readFileSync('$f', 'utf8'))" || { echo "Invalid JSON: $f"; exit 1; }
+          done
+          echo "All templates parse cleanly."

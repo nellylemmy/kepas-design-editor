@@ -1,0 +1,59 @@
+name: Bug report
+description: Something in the editor or backend isn't working right.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: One-line summary, then details.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Numbered list please.
+      placeholder: |
+        1. Open /tools/design-editor
+        2. Drag a text box
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser + version
+      placeholder: e.g. Chrome 148, Firefox 121, Safari 17
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS + device
+      placeholder: e.g. macOS 14 (M1), Windows 11, Android 14 (Samsung S22)
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or console errors
+      description: Drag-and-drop images, paste console output.
+  - type: input
+    id: shareCode
+    attributes:
+      label: Share code (if applicable)
+      description: If the bug only happens with a specific saved design, paste the share_code.
