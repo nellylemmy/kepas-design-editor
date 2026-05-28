@@ -27,7 +27,7 @@ Templates are plain JSON files under `public/templates/design-editor/`. Each tem
 
 **What we want most:**
 - Kenya-relevant invoices (KRA PIN field, M-Pesa till + paybill placeholders, VAT line)
-- Certificate templates with Maasai / Kikuyu / Luo / Kalenjin colour palettes
+- Certificate templates with locally inspired colour palettes (no specific ethnic-group framing — keep designs neutral and inclusive)
 - Training-completion certificates for tech bootcamps and vocational schools
 - Receipt formats for small kiosks, salons, matatu SACCOs
 - Wedding / harambee / dowry templates
