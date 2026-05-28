@@ -1,0 +1,26 @@
+{
+  "name": "kepas-design-editor",
+  "version": "1.0.0",
+  "description": "Drag-and-drop design editor for certificates, receipts, and invoices. Fabric.js + jsPDF. MIT.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "migrate": "node scripts/migrate.js"
+  },
+  "license": "MIT",
+  "author": "Nelson Lemein <nelsonlemmy61@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nellylemmy/kepas-design-editor.git"
+  },
+  "homepage": "https://kepas.co.ke/tools/design-editor",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nunjucks": "^3.2.4",
+    "pg": "^8.11.5"
+  }
+}

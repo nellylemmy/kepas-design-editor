@@ -1,0 +1,648 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "objects": [
+    {
+      "type": "rect",
+      "left": 0,
+      "top": 0,
+      "width": 794,
+      "height": 50,
+      "fill": "#D32F2F"
+    },
+    {
+      "type": "i-text",
+      "left": 397,
+      "top": 12,
+      "text": "TAX INVOICE",
+      "fontFamily": "Inter",
+      "fontSize": 22,
+      "fontWeight": "bold",
+      "fill": "#FFFFFF",
+      "textAlign": "center",
+      "originX": "center"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 70,
+      "text": "[Company Name]",
+      "fontFamily": "Inter",
+      "fontSize": 18,
+      "fontWeight": "bold",
+      "fill": "#0A2540"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 95,
+      "text": "[Address]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 113,
+      "text": "[Phone | Email]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 140,
+      "text": "KRA PIN:",
+      "fontFamily": "Inter",
+      "fontSize": 13,
+      "fontWeight": "600",
+      "fill": "#D32F2F"
+    },
+    {
+      "type": "i-text",
+      "left": 120,
+      "top": 140,
+      "text": "P000000000X",
+      "fontFamily": "Roboto Mono",
+      "fontSize": 13,
+      "fontWeight": "600",
+      "fill": "#0A2540"
+    },
+    {
+      "type": "i-text",
+      "left": 540,
+      "top": 70,
+      "text": "Invoice No: INV-0001",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 540,
+      "top": 90,
+      "text": "Date: DD/MM/YYYY",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 540,
+      "top": 110,
+      "text": "Due Date: DD/MM/YYYY",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 714,
+      "y2": 0,
+      "left": 40,
+      "top": 170,
+      "stroke": "#E0E0E0",
+      "strokeWidth": 1
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 185,
+      "text": "BUYER DETAILS",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#D32F2F"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 205,
+      "text": "[Buyer Name]",
+      "fontFamily": "Inter",
+      "fontSize": 14,
+      "fontWeight": "600",
+      "fill": "#0A2540"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 225,
+      "text": "[Buyer Address]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 248,
+      "text": "Buyer KRA PIN: [PIN]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "600",
+      "fill": "#0A2540"
+    },
+    {
+      "type": "rect",
+      "left": 30,
+      "top": 290,
+      "width": 734,
+      "height": 32,
+      "fill": "#D32F2F"
+    },
+    {
+      "type": "i-text",
+      "left": 45,
+      "top": 298,
+      "text": "#",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#FFFFFF"
+    },
+    {
+      "type": "i-text",
+      "left": 80,
+      "top": 298,
+      "text": "Description",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#FFFFFF"
+    },
+    {
+      "type": "i-text",
+      "left": 380,
+      "top": 298,
+      "text": "Qty",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#FFFFFF"
+    },
+    {
+      "type": "i-text",
+      "left": 440,
+      "top": 298,
+      "text": "Unit Price (KES)",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#FFFFFF"
+    },
+    {
+      "type": "i-text",
+      "left": 570,
+      "top": 298,
+      "text": "VAT",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#FFFFFF"
+    },
+    {
+      "type": "i-text",
+      "left": 650,
+      "top": 298,
+      "text": "Total (KES)",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#FFFFFF"
+    },
+    {
+      "type": "i-text",
+      "left": 45,
+      "top": 335,
+      "text": "1",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 80,
+      "top": 335,
+      "text": "[Item description]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 380,
+      "top": 335,
+      "text": "1",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 440,
+      "top": 335,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 570,
+      "top": 335,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 650,
+      "top": 335,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "rect",
+      "left": 30,
+      "top": 358,
+      "width": 734,
+      "height": 30,
+      "fill": "#F9FAFB"
+    },
+    {
+      "type": "i-text",
+      "left": 45,
+      "top": 365,
+      "text": "2",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 80,
+      "top": 365,
+      "text": "[Item description]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 380,
+      "top": 365,
+      "text": "1",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 440,
+      "top": 365,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 570,
+      "top": 365,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 650,
+      "top": 365,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 45,
+      "top": 395,
+      "text": "3",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 80,
+      "top": 395,
+      "text": "[Item description]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 380,
+      "top": 395,
+      "text": "1",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 440,
+      "top": 395,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 570,
+      "top": 395,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 650,
+      "top": 395,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 734,
+      "y2": 0,
+      "left": 30,
+      "top": 430,
+      "stroke": "#E0E0E0",
+      "strokeWidth": 1
+    },
+    {
+      "type": "i-text",
+      "left": 520,
+      "top": 445,
+      "text": "Subtotal (excl. VAT):",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 680,
+      "top": 445,
+      "text": "KES 0.00",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 520,
+      "top": 470,
+      "text": "VAT @ 16%:",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 680,
+      "top": 470,
+      "text": "KES 0.00",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 244,
+      "y2": 0,
+      "left": 520,
+      "top": 495,
+      "stroke": "#D32F2F",
+      "strokeWidth": 2
+    },
+    {
+      "type": "i-text",
+      "left": 520,
+      "top": 510,
+      "text": "TOTAL (incl. VAT):",
+      "fontFamily": "Inter",
+      "fontSize": 16,
+      "fontWeight": "bold",
+      "fill": "#0A2540"
+    },
+    {
+      "type": "i-text",
+      "left": 680,
+      "top": 510,
+      "text": "KES 0.00",
+      "fontFamily": "Inter",
+      "fontSize": 16,
+      "fontWeight": "bold",
+      "fill": "#0A2540"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 550,
+      "text": "Amount in words:",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 570,
+      "text": "[Kenya Shillings ... only]",
+      "fontFamily": "Inter",
+      "fontSize": 13,
+      "fontWeight": "600",
+      "fill": "#0A2540"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 620,
+      "text": "PAYMENT DETAILS",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#D32F2F"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 645,
+      "text": "Bank: [Bank Name]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 665,
+      "text": "Account: [Account Number]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 685,
+      "text": "Branch: [Branch Name]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 705,
+      "text": "M-Pesa Paybill: [Number]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 725,
+      "text": "Account Name: [Name]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 800,
+      "text": "Prepared by:",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 180,
+      "y2": 0,
+      "left": 40,
+      "top": 850,
+      "stroke": "#333333",
+      "strokeWidth": 1
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 855,
+      "text": "Name / Signature / Date",
+      "fontFamily": "Inter",
+      "fontSize": 10,
+      "fontWeight": "normal",
+      "fill": "#9E9E9E"
+    },
+    {
+      "type": "i-text",
+      "left": 430,
+      "top": 800,
+      "text": "Authorised by:",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 180,
+      "y2": 0,
+      "left": 430,
+      "top": 850,
+      "stroke": "#333333",
+      "strokeWidth": 1
+    },
+    {
+      "type": "i-text",
+      "left": 430,
+      "top": 855,
+      "text": "Name / Signature / Date",
+      "fontFamily": "Inter",
+      "fontSize": 10,
+      "fontWeight": "normal",
+      "fill": "#9E9E9E"
+    },
+    {
+      "type": "i-text",
+      "left": 397,
+      "top": 1080,
+      "text": "This is a Tax Invoice as per KRA requirements",
+      "fontFamily": "Inter",
+      "fontSize": 10,
+      "fontWeight": "normal",
+      "fill": "#D32F2F",
+      "textAlign": "center",
+      "originX": "center"
+    }
+  ]
+}

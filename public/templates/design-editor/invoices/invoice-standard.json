@@ -1,0 +1,525 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "objects": [
+    {
+      "type": "rect",
+      "left": 0,
+      "top": 0,
+      "width": 6,
+      "height": 1122,
+      "fill": "#0A2540",
+      "selectable": false
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 40,
+      "text": "[Your Company Name]",
+      "fontFamily": "Inter",
+      "fontSize": 22,
+      "fontWeight": "bold",
+      "fill": "#0A2540"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 70,
+      "text": "[Address Line 1]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 88,
+      "text": "[City, County | Phone | Email]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 110,
+      "text": "KRA PIN: [P000000000X]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#0A2540"
+    },
+    {
+      "type": "i-text",
+      "left": 580,
+      "top": 40,
+      "text": "INVOICE",
+      "fontFamily": "Inter",
+      "fontSize": 32,
+      "fontWeight": "bold",
+      "fill": "#0A2540"
+    },
+    {
+      "type": "i-text",
+      "left": 580,
+      "top": 80,
+      "text": "Invoice No: INV-0001",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 580,
+      "top": 100,
+      "text": "Date: DD/MM/YYYY",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 580,
+      "top": 120,
+      "text": "Due Date: DD/MM/YYYY",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 714,
+      "y2": 0,
+      "left": 40,
+      "top": 150,
+      "stroke": "#00C9A7",
+      "strokeWidth": 2
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 175,
+      "text": "BILL TO",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#00C9A7"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 195,
+      "text": "[Client Name]",
+      "fontFamily": "Inter",
+      "fontSize": 14,
+      "fontWeight": "600",
+      "fill": "#0A2540"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 215,
+      "text": "[Client Address]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 235,
+      "text": "[Client KRA PIN]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "rect",
+      "left": 30,
+      "top": 280,
+      "width": 734,
+      "height": 32,
+      "fill": "#0A2540"
+    },
+    {
+      "type": "i-text",
+      "left": 45,
+      "top": 288,
+      "text": "#",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#FFFFFF"
+    },
+    {
+      "type": "i-text",
+      "left": 80,
+      "top": 288,
+      "text": "Description",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#FFFFFF"
+    },
+    {
+      "type": "i-text",
+      "left": 450,
+      "top": 288,
+      "text": "Qty",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#FFFFFF"
+    },
+    {
+      "type": "i-text",
+      "left": 520,
+      "top": 288,
+      "text": "Unit Price",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#FFFFFF"
+    },
+    {
+      "type": "i-text",
+      "left": 640,
+      "top": 288,
+      "text": "Amount (KES)",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#FFFFFF"
+    },
+    {
+      "type": "i-text",
+      "left": 45,
+      "top": 325,
+      "text": "1",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 80,
+      "top": 325,
+      "text": "[Item description]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 450,
+      "top": 325,
+      "text": "1",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 520,
+      "top": 325,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 640,
+      "top": 325,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "rect",
+      "left": 30,
+      "top": 348,
+      "width": 734,
+      "height": 30,
+      "fill": "#F9FAFB"
+    },
+    {
+      "type": "i-text",
+      "left": 45,
+      "top": 355,
+      "text": "2",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 80,
+      "top": 355,
+      "text": "[Item description]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 450,
+      "top": 355,
+      "text": "1",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 520,
+      "top": 355,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 640,
+      "top": 355,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 45,
+      "top": 385,
+      "text": "3",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 80,
+      "top": 385,
+      "text": "[Item description]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 450,
+      "top": 385,
+      "text": "1",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 520,
+      "top": 385,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 640,
+      "top": 385,
+      "text": "0.00",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 734,
+      "y2": 0,
+      "left": 30,
+      "top": 420,
+      "stroke": "#E0E0E0",
+      "strokeWidth": 1
+    },
+    {
+      "type": "i-text",
+      "left": 520,
+      "top": 435,
+      "text": "Subtotal:",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 640,
+      "top": 435,
+      "text": "KES 0.00",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 520,
+      "top": 460,
+      "text": "VAT (16%):",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#616161"
+    },
+    {
+      "type": "i-text",
+      "left": 640,
+      "top": 460,
+      "text": "KES 0.00",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 244,
+      "y2": 0,
+      "left": 520,
+      "top": 485,
+      "stroke": "#0A2540",
+      "strokeWidth": 2
+    },
+    {
+      "type": "i-text",
+      "left": 520,
+      "top": 500,
+      "text": "TOTAL DUE:",
+      "fontFamily": "Inter",
+      "fontSize": 16,
+      "fontWeight": "bold",
+      "fill": "#0A2540"
+    },
+    {
+      "type": "i-text",
+      "left": 640,
+      "top": 500,
+      "text": "KES 0.00",
+      "fontFamily": "Inter",
+      "fontSize": 16,
+      "fontWeight": "bold",
+      "fill": "#0A2540"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 570,
+      "text": "BANK DETAILS",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "600",
+      "fill": "#00C9A7"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 595,
+      "text": "Bank: [Bank Name]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 615,
+      "text": "Account: [Account Number]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 635,
+      "text": "Branch: [Branch Name]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 655,
+      "text": "M-Pesa Paybill: [Number]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 675,
+      "text": "Account Name: [Name]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#333333"
+    },
+    {
+      "type": "i-text",
+      "left": 40,
+      "top": 750,
+      "text": "Terms: Payment due within 30 days of invoice date.",
+      "fontFamily": "Inter",
+      "fontSize": 10,
+      "fontWeight": "normal",
+      "fill": "#9E9E9E"
+    },
+    {
+      "type": "i-text",
+      "left": 397,
+      "top": 1080,
+      "text": "Thank you for your business",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#9E9E9E",
+      "textAlign": "center",
+      "originX": "center"
+    }
+  ]
+}

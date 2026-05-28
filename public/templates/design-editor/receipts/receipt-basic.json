@@ -1,0 +1,280 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "objects": [
+    {
+      "type": "rect",
+      "left": 0,
+      "top": 0,
+      "width": 560,
+      "height": 80,
+      "fill": "#0A2540",
+      "stroke": null,
+      "strokeWidth": 0
+    },
+    {
+      "type": "i-text",
+      "left": 30,
+      "top": 18,
+      "text": "[Company Name]",
+      "fontFamily": "Inter",
+      "fontSize": 20,
+      "fontWeight": "bold",
+      "fill": "#FFFFFF",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 30,
+      "top": 48,
+      "text": "[Company Address]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "rgba(255,255,255,0.7)",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 30,
+      "top": 110,
+      "text": "RECEIPT",
+      "fontFamily": "Inter",
+      "fontSize": 28,
+      "fontWeight": "bold",
+      "fill": "#0A2540",
+      "textAlign": "left"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 500,
+      "y2": 0,
+      "left": 30,
+      "top": 150,
+      "stroke": "#00C9A7",
+      "strokeWidth": 2
+    },
+    {
+      "type": "i-text",
+      "left": 30,
+      "top": 170,
+      "text": "Receipt No:",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "600",
+      "fill": "#616161",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 130,
+      "top": 170,
+      "text": "[RCT-0001]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#0A2540",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 350,
+      "top": 170,
+      "text": "Date:",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "600",
+      "fill": "#616161",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 400,
+      "top": 170,
+      "text": "[DD/MM/YYYY]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#0A2540",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 30,
+      "top": 210,
+      "text": "Received from:",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "600",
+      "fill": "#616161",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 30,
+      "top": 230,
+      "text": "[Customer Name]",
+      "fontFamily": "Inter",
+      "fontSize": 14,
+      "fontWeight": "normal",
+      "fill": "#0A2540",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 30,
+      "top": 290,
+      "text": "Description",
+      "fontFamily": "Inter",
+      "fontSize": 13,
+      "fontWeight": "600",
+      "fill": "#0A2540",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 420,
+      "top": 290,
+      "text": "Amount (KES)",
+      "fontFamily": "Inter",
+      "fontSize": 13,
+      "fontWeight": "600",
+      "fill": "#0A2540",
+      "textAlign": "left"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 500,
+      "y2": 0,
+      "left": 30,
+      "top": 310,
+      "stroke": "#E0E0E0",
+      "strokeWidth": 1
+    },
+    {
+      "type": "i-text",
+      "left": 30,
+      "top": 320,
+      "text": "[Item description]",
+      "fontFamily": "Inter",
+      "fontSize": 13,
+      "fontWeight": "normal",
+      "fill": "#333333",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 420,
+      "top": 320,
+      "text": "[0.00]",
+      "fontFamily": "Inter",
+      "fontSize": 13,
+      "fontWeight": "normal",
+      "fill": "#333333",
+      "textAlign": "left"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 500,
+      "y2": 0,
+      "left": 30,
+      "top": 400,
+      "stroke": "#E0E0E0",
+      "strokeWidth": 1
+    },
+    {
+      "type": "i-text",
+      "left": 350,
+      "top": 420,
+      "text": "Total:",
+      "fontFamily": "Inter",
+      "fontSize": 16,
+      "fontWeight": "bold",
+      "fill": "#0A2540",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 420,
+      "top": 420,
+      "text": "KES [0.00]",
+      "fontFamily": "Inter",
+      "fontSize": 16,
+      "fontWeight": "bold",
+      "fill": "#0A2540",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 30,
+      "top": 490,
+      "text": "Payment Method:",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#616161",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 30,
+      "top": 510,
+      "text": "[Cash / M-Pesa / Bank Transfer]",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#0A2540",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 30,
+      "top": 580,
+      "text": "Received by:",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#616161",
+      "textAlign": "left"
+    },
+    {
+      "type": "line",
+      "x1": 0,
+      "y1": 0,
+      "x2": 200,
+      "y2": 0,
+      "left": 30,
+      "top": 630,
+      "stroke": "#333333",
+      "strokeWidth": 1
+    },
+    {
+      "type": "i-text",
+      "left": 30,
+      "top": 640,
+      "text": "[Authorised Signatory]",
+      "fontFamily": "Inter",
+      "fontSize": 11,
+      "fontWeight": "normal",
+      "fill": "#9E9E9E",
+      "textAlign": "left"
+    },
+    {
+      "type": "i-text",
+      "left": 280,
+      "top": 740,
+      "text": "Thank you for your payment",
+      "fontFamily": "Inter",
+      "fontSize": 12,
+      "fontWeight": "normal",
+      "fill": "#9E9E9E",
+      "textAlign": "center",
+      "originX": "center"
+    }
+  ]
+}

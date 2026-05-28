@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "id": "cert-ornate-frame-01",
+      "name": "ADEA-PMD Certificate",
+      "description": "Ornate gold filigree frame, ADEA training programme, portrait A4",
+      "category": "certificate",
+      "file": "cert-ornate-frame.json",
+      "canvasWidth": 794,
+      "canvasHeight": 1122,
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "cert-completion-01",
+      "name": "Certificate of Completion",
+      "description": "Gold border, formal serif font, landscape A4",
+      "category": "certificate",
+      "file": "cert-completion.json",
+      "canvasWidth": 1122,
+      "canvasHeight": 794,
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "cert-appreciation-01",
+      "name": "Certificate of Appreciation",
+      "description": "Navy header with teal accent, modern layout",
+      "category": "certificate",
+      "file": "cert-appreciation.json",
+      "canvasWidth": 1122,
+      "canvasHeight": 794,
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "cert-participation-01",
+      "name": "Certificate of Participation",
+      "description": "Minimal thin gold border, portrait A4",
+      "category": "certificate",
+      "file": "cert-participation.json",
+      "canvasWidth": 794,
+      "canvasHeight": 1122,
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "cert-academic-01",
+      "name": "Academic Certificate",
+      "description": "Institution crest placeholder, dual signature lines",
+      "category": "certificate",
+      "file": "cert-academic.json",
+      "canvasWidth": 1122,
+      "canvasHeight": 794,
+      "backgroundColor": "#FFFEF7"
+    },
+    {
+      "id": "receipt-basic-01",
+      "name": "Basic Receipt",
+      "description": "Organisation logo, receipt number, amount in KES",
+      "category": "receipt",
+      "file": "receipt-basic.json",
+      "canvasWidth": 560,
+      "canvasHeight": 794,
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "receipt-mpesa-01",
+      "name": "M-Pesa Receipt",
+      "description": "Transaction code field, phone number, M-Pesa green",
+      "category": "receipt",
+      "file": "receipt-mpesa.json",
+      "canvasWidth": 560,
+      "canvasHeight": 794,
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "receipt-detailed-01",
+      "name": "Detailed Receipt",
+      "description": "Itemised table, VAT (16%), subtotal and total",
+      "category": "receipt",
+      "file": "receipt-detailed.json",
+      "canvasWidth": 560,
+      "canvasHeight": 794,
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "invoice-standard-01",
+      "name": "Standard Invoice",
+      "description": "Bill-to, itemised table, bank details, KRA PIN",
+      "category": "invoice",
+      "file": "invoice-standard.json",
+      "canvasWidth": 794,
+      "canvasHeight": 1122,
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "invoice-kra-01",
+      "name": "KRA Tax Invoice",
+      "description": "KRA-compliant, TAX INVOICE header, 16% VAT breakout",
+      "category": "invoice",
+      "file": "invoice-kra.json",
+      "canvasWidth": 794,
+      "canvasHeight": 1122,
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "id": "invoice-proforma-01",
+      "name": "Proforma Invoice",
+      "description": "Validity period, not-a-tax-invoice disclaimer, M-Pesa paybill",
+      "category": "invoice",
+      "file": "invoice-proforma.json",
+      "canvasWidth": 794,
+      "canvasHeight": 1122,
+      "backgroundColor": "#FFFFFF"
+    }
+  ]
+}
